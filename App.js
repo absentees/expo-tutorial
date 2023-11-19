@@ -93,6 +93,7 @@ export default function App() {
 
   return (
     <GestureHandlerRootView style={styles.container}>
+      <StatusBar style="light" />
       <View style={styles.imageContainer}>
         <View ref={imageRef} collapsable={false}>
           <ImageViewer placeholderImageSource={PlaceholderImage} selectedImage={selectedImage} />
